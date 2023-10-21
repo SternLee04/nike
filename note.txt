@@ -1,0 +1,8 @@
+mon 25-09
+Hero Section is almost completed.
+    the changing shoe by clinking shoeCard is not working react hook.
+PopularProduct is almost completed.
+    the alignment and text is not good remain to fix.
+SuperQuality section is completed. 
+service section is completed.
+https://youtu.be/tS7upsfuxmo ==> continue from this.
