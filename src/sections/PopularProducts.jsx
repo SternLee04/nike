@@ -10,9 +10,11 @@ const PopularProducts = () => {
         <p className=" lg:max-w-lg mt-2 font-montserrat text-slate-gray">Experience top-notch quality and style with our sought-after selctions. Discover a world of comfort, design and value</p>
       </div>
 
-      <div className=" mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-4 gap-14">
+      <div className="mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-4 gap-14">
         {products.map((product) =>(
+          <div className="mx-auto">
           <PopularProductCard key = {product.name} {...product} />
+          </div>
         ))}
       </div>
     </section>
